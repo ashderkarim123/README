@@ -28,7 +28,7 @@ user@github:~$ ./welcome.sh
 ```
 user@github
 -------------------------
-
+<!-- Customize the information below with your own details -->
 > whoami [Your Title/Role]
 > what_do_you_do I build amazing projects and solve problems.
   Currently exploring new technologies and frameworks.
@@ -72,11 +72,11 @@ user@github:~$ ./mycontributions.gif
 
 ```
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ashderkarim123/README/main/github-contribution-grid-snake-dark.svg" alt="GitHub Contributions"/>
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/github-contribution-grid-snake-dark.svg" alt="GitHub Contributions"/>
 </div>
 
-<!-- Uncomment and customize as needed
+<!-- Uncomment and customize with your GitHub username
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ashderkarim123&show_icons=true&theme=dark" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark" alt="GitHub Stats"/>
 </div>
 -->
