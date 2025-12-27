@@ -1,7 +1,44 @@
-# 💫 About Me:
-I’m a Software Engineering student and IT Support Specialist based in Islamabad, Pakistan, with strong interests in systems, networking, cybersecurity, automation, and backend development. I enjoy building practical, real-world solutions and learning how large systems work under the hood.<br><br>I have hands-on experience across software development, IT operations, VoIP systems, CRM automation, and network configuration, and I’m continuously expanding my skill set toward AI, cybersecurity, and scalable systems.<br><br>Education<br><br>BS Software Engineering (6th Semester)<br><br>Strong academic exposure to:<br><br>Software Engineering & Quality Engineering<br><br>Web Engineering<br><br>Artificial Intelligence<br><br>Formal Methods<br><br>Information Security<br><br>💼 Professional Experience<br><br>IT Support Specialist – BaliTech / Bali BPO<br><br>Managing dialers, VoIP systems, and network-related issues<br><br>Supporting internal CRM & HRM systems<br><br>Automating form-based lead entry for live transfer campaigns<br><br>Troubleshooting system, connectivity, and application issues<br><br>Freelancer (Fiverr & Upwork)<br><br>WordPress development<br><br>Technical IT support<br><br>Website setup, hosting, SSL, and troubleshooting<br><br>🛠️ Technical Skills<br><br>Programming & Development<br><br>Python, C++, Java (academic projects)<br><br>HTML, CSS, JavaScript<br><br>WordPress Development<br><br>Desktop apps (PyQt, .NET – academic)<br><br>Networking & Systems<br><br>Linux (Ubuntu, CentOS, Vicibox)<br><br>MikroTik (VLANs, DHCP, routing)<br><br>Active Directory & domain concepts<br><br>VoIP: Asterisk, Vicidial, Kamailio, SIP tools (sngrep)<br><br>Databases & Tools<br><br>MySQL / MariaDB<br><br>Git & GitHub<br><br>Eclipse IDE<br><br>CRM platforms (HubSpot, custom CRMs)<br><br>Cybersecurity & IT<br><br>Google IT Support Professional Certificate<br><br>Google Cybersecurity Specialization<br><br>Network security fundamentals<br><br>Ethical penetration testing concepts (academic)<br><br>🚀 Projects I’ve Worked On<br>🔹 Cash & Carry Management System (Java)<br><br>Semester project<br><br>Inventory, billing, and basic management features<br><br>Backend logic in Java with database integration<br><br>🔹 AI-Powered Cold Calling System (No-Code / Low-Code)<br><br>Designed AI call workflows using Synthflow<br><br>Integrated Google Sheets → HubSpot CRM<br><br>Automated lead qualification and call handling<br><br>Focused on real business use cases<br><br>🔹 VoIP Smart Routing & Load Balancing (Kamailio + Vicidial)<br><br>Configured Kamailio as a SIP load balancer & failover switch<br><br>Integrated with Vicidial/Asterisk<br><br>Worked on carrier routing logic and SIP troubleshooting<br><br>🔹 Network Design for University (Academic)<br><br>Designed a network for ~1000 users<br><br>VLAN segmentation (Admin, Finance, Exams, Labs)<br><br>Firewall policies & Active Directory integration<br><br>🔹 Remote Access Tool (Academic / Learning Project)<br><br>Built a .NET-based RAT for educational and penetration testing concepts<br><br>Focused on GUI design, alerts, encryption basics, and client-server communication<br><br>Emphasis on ethical usage and learning system internals<br><br>🔹 MikroTik Camera Network Setup<br><br>VLAN-based isolation for IP cameras<br><br>DHCP configuration per VLAN<br><br>Remote access planning via NAT<br><br>🔹 E-Commerce Projects<br><br>Shopify & custom website planning<br><br>Business branding & domain setup<br><br>Product-based websites (local market focus)<br><br>🌱 Currently Learning<br><br>Data Science & AI (from basics)<br><br>Advanced Python<br><br>Software Architecture<br><br>Cybersecurity & Ethical Hacking<br><br>Requirements Engineering → Design → Testing → Deployment lifecycle<br><br>🎯 Career Goals<br><br>Pursue a Master’s degree in Cybersecurity (Germany – fully funded)<br><br>Work on secure, scalable systems<br><br>Combine AI, security, and automation in real-world applications<br><br>📫 Let’s Connect<br><br>LinkedIn: https://linkedin.com/in/ashder-karim<br><br>GitHub: You’re already here
+👋 Hi, I’m Ashder Karim
 
+💻 Software Engineering Student | IT Support Specialist | Systems & Networking Enthusiast
 
+I’m a Software Engineering student based in Islamabad with hands-on experience in software development, IT support, VoIP systems, networking, and automation. I enjoy building practical solutions, troubleshooting complex systems, and learning how scalable and secure infrastructures work.
+
+🔧 Skills & Technologies
+
+Languages: Python, C++, Java, HTML, CSS
+
+Systems & Networking: Linux, MikroTik, VLANs, Active Directory
+
+VoIP: Asterisk, Vicidial, Kamailio, SIP
+
+Databases: MySQL / MariaDB
+
+Tools: Git, GitHub, Eclipse, HubSpot, WordPress
+
+🚀 Selected Projects
+
+Cash & Carry Management System (Java) – Inventory & billing system (academic)
+
+AI Cold Calling System – Google Sheets → HubSpot → AI voice workflows
+
+VoIP Load Balancer – Kamailio with Vicidial (routing & failover)
+
+University Network Design – VLANs, firewall, AD (1000+ users)
+
+Remote Access Tool (Academic) – .NET-based learning project (ethical use)
+
+MikroTik Camera Network – VLAN isolation with DHCP
+
+🎓 Certifications
+
+Google IT Support Professional
+
+Google Cybersecurity Specialization
+
+🌱 Currently Learning
+
+AI, Data Science, Cybersecurity, Software Architecture
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ashder_karim) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/ashder-karim) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/ashderkarim) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/karimashder) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ashderkarim123@gmail.com) 
 
