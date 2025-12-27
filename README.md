@@ -2,6 +2,17 @@
 
 💻 Software Engineering Student | IT Support Specialist | Systems & Networking Enthusiast
 
+## Portfolio Website (this repo)
+
+The modern portfolio site lives in `portfolio/`.
+
+- **Edit content**: `portfolio/src/data/portfolio.ts` (projects, stats, links, skills)
+- **Run locally**:
+  - `cd portfolio`
+  - `npm install`
+  - `npm run dev`
+- **Build for deploy**: `npm run build`
+
 I’m a Software Engineering student based in Islamabad with hands-on experience in software development, IT support, VoIP systems, networking, and automation. I enjoy building practical solutions, troubleshooting complex systems, and learning how scalable and secure infrastructures work.
 
 🔧 Skills & Technologies
