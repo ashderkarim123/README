@@ -97,11 +97,17 @@ portfolio/
 │   ├── assets/         # Images and static assets
 │   ├── lib/            # Utility functions
 │   ├── App.tsx         # Main app component
-│   └── main.tsx        # Entry point
+│   ├── main.tsx        # Entry point
+│   └── index.css       # Global styles
 ├── public/             # Public static files
 ├── index.html          # HTML template
-└── package.json        # Dependencies and scripts
+├── package.json        # Dependencies and scripts
+├── vite.config.ts      # Vite configuration
+├── tsconfig.json       # TypeScript configuration
+└── eslint.config.js    # ESLint configuration
 ```
+
+*Note: This shows the key files and directories. See the full repository for additional configuration files.*
 
 ## 🎯 Featured Projects
 
