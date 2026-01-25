@@ -1,8 +1,10 @@
 import { useMemo, useState } from 'react'
-import { ArrowRight, Copy, ExternalLink, Github, MapPin } from 'lucide-react'
+import { ArrowRight, Copy, MapPin } from 'lucide-react'
 import { FadeIn } from './components/FadeIn'
 import { Navbar } from './components/Navbar'
 import { SectionHeading } from './components/SectionHeading'
+import { Contact } from './components/Contact'
+import { Projects } from './components/Projects'
 import { portfolio } from './data/portfolio'
 import { cn } from './lib/utils'
 import { Card } from './components/ui/Card'
@@ -180,53 +182,7 @@ export default function App() {
 
         <Section id="projects">
           <FadeIn>
-            <SectionHeading
-              title="Projects"
-              subtitle="A few things I’ve built or worked on. Add more by editing src/data/portfolio.ts."
-            />
-
-            <div className="grid gap-4 md:grid-cols-2">
-              {data.projects.map((p, idx) => (
-                <Card
-                  key={p.title}
-                  className={cn(
-                    'group p-6 transition hover:border-white/15 hover:bg-white/[0.05]',
-                    p.featured && 'ring-1 ring-indigo-500/25',
-                  )}
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <div>
-                      <div className="text-base font-semibold text-zinc-50">{p.title}</div>
-                      <p className="mt-2 text-sm leading-relaxed text-zinc-400">{p.description}</p>
-                    </div>
-                    <div className="text-xs text-zinc-500">#{String(idx + 1).padStart(2, '0')}</div>
-                  </div>
-
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {p.tags.map((t) => (
-                      <Chip key={t}>{t}</Chip>
-                    ))}
-                  </div>
-
-                  {p.links?.length ? (
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {p.links.map((l) => (
-                        <a
-                          key={l.href}
-                          href={l.href}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm text-zinc-200 hover:bg-white/10"
-                        >
-                          <ExternalLink className="size-4" />
-                          {l.label}
-                        </a>
-                      ))}
-                    </div>
-                  ) : null}
-                </Card>
-              ))}
-            </div>
+            <Projects />
           </FadeIn>
         </Section>
 
@@ -277,58 +233,7 @@ export default function App() {
 
         <Section id="contact">
           <FadeIn>
-            <SectionHeading title="Contact" subtitle="Want to collaborate or hire me? Let’s talk." />
-            <div className="grid gap-4 md:grid-cols-12">
-              <Card className="p-6 md:col-span-7">
-                <div className="text-sm font-semibold text-zinc-50">Send a message</div>
-                <p className="mt-2 text-sm text-zinc-400">
-                  This is a simple, no-backend contact option (mailto). If you want a real form (Resend/Formspree),
-                  tell me and I’ll wire it up.
-                </p>
-                <div className="mt-4 flex flex-wrap gap-3">
-                  <LinkButton href={`mailto:${data.email}`} variant="primary">
-                    Email me <ArrowRight className="size-4" />
-                  </LinkButton>
-                  <Button type="button" variant="secondary" onClick={copyEmail}>
-                    <Copy className="size-4" />
-                    {copied ? 'Copied' : 'Copy email'}
-                  </Button>
-                </div>
-              </Card>
-
-              <Card className="p-6 md:col-span-5">
-                <div className="text-sm font-semibold text-zinc-50">Links</div>
-                <div className="mt-4 grid gap-2">
-                  <a
-                    href={data.socials.find((s) => s.label === 'GitHub')?.href ?? '#'}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-zinc-200 hover:bg-white/10"
-                  >
-                    <span className="inline-flex items-center gap-2">
-                      <Github className="size-4" /> GitHub
-                    </span>
-                    <ExternalLink className="size-4 text-zinc-500" />
-                  </a>
-                  {data.socials
-                    .filter((s) => s.label !== 'GitHub')
-                    .map((s) => (
-                      <a
-                        key={s.href}
-                        href={s.href}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-zinc-200 hover:bg-white/10"
-                      >
-                        <span className="inline-flex items-center gap-2">
-                          <s.icon className="size-4" /> {s.label}
-                        </span>
-                        <ExternalLink className="size-4 text-zinc-500" />
-                      </a>
-                    ))}
-                </div>
-              </Card>
-            </div>
+            <Contact />
           </FadeIn>
         </Section>
 
