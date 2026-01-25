@@ -100,6 +100,13 @@ export const portfolio: Portfolio = {
   ],
   projects: [
     {
+      title: 'Pantry Plus – Smart Kitchen Pantry Application',
+      description:
+        'A smart kitchen pantry management application developed as a university project. Helps users manage pantry items, track expiry dates, and reduce food waste. Includes AI-powered features for smart suggestions and insights.',
+      tags: ['React.js', 'Tailwind CSS', 'AI Features', 'University Project'],
+      featured: true,
+    },
+    {
       title: 'AI Cold Calling System',
       description:
         'Automation pipeline from Google Sheets to HubSpot, then AI voice workflows for outreach and tracking.',
