@@ -35,6 +35,7 @@ export type Project = {
   title: string
   description: string
   tags: string[]
+  badge?: string
   featured?: boolean
   links?: ProjectLink[]
 }
@@ -99,6 +100,13 @@ export const portfolio: Portfolio = {
     'I enjoy building reliable solutions, improving processes, and learning how secure infrastructures scale.',
   ],
   projects: [
+    {
+      title: 'Pantry Plus - Smart Kitchen Pantry Application',
+      description:
+        'A smart kitchen pantry management application developed as a university project. Helps users manage pantry items, track expiry dates, and reduce food waste. Includes AI-powered features for smart suggestions and insights.',
+      tags: ['React.js', 'Tailwind CSS', 'AI-powered insights'],
+      badge: 'University Project',
+    },
     {
       title: 'AI Cold Calling System',
       description:
