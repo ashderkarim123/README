@@ -36,6 +36,7 @@ export type Project = {
   description: string
   tags: string[]
   featured?: boolean
+  badge?: string
   links?: ProjectLink[]
 }
 
@@ -100,6 +101,14 @@ export const portfolio: Portfolio = {
   ],
   projects: [
     {
+      title: 'Pantry Plus – Smart Kitchen Pantry Application',
+      description:
+        'A smart kitchen pantry management application that helps users manage pantry items, track expiry dates, and reduce food waste. Includes AI-powered features for smart suggestions and insights.',
+      tags: ['React.js', 'Tailwind CSS', 'AI-powered features'],
+      featured: true,
+      badge: 'University Project',
+    },
+    {
       title: 'AI Cold Calling System',
       description:
         'Automation pipeline from Google Sheets to HubSpot, then AI voice workflows for outreach and tracking.',
@@ -118,11 +127,13 @@ export const portfolio: Portfolio = {
       description:
         'Network design including VLAN segmentation, firewall rules, and Active Directory for 1000+ users.',
       tags: ['Networking', 'VLAN', 'Active Directory', 'Security'],
+      badge: 'University Project',
     },
     {
       title: 'Cash & Carry Management System',
       description: 'Java inventory and billing system built as an academic project.',
       tags: ['Java', 'CRUD', 'Inventory'],
+      badge: 'University Project',
     },
     {
       title: 'MikroTik Camera Network',
@@ -133,6 +144,7 @@ export const portfolio: Portfolio = {
       title: 'Remote Access Tool (Academic)',
       description: 'A .NET-based learning project focused on ethical, controlled remote access concepts.',
       tags: ['.NET', 'Networking', 'Security'],
+      badge: 'University Project',
     },
   ],
   skills: [
